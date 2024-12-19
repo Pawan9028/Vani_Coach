@@ -5,10 +5,13 @@
     <classes>
       <class name="Tests.LoginPage_Test">
         <methods>
+          <include name="verifyLoginWithValidCredential"/>
+          <include name="testInvalidLogin"/>
           <include name="setUp"/>
           <include name="loadObject"/>
-          <include name="verifyTextBoxesAndButtonsEnable"/>
+          <include name="testEmptyCredentials"/>
           <include name="tearDown"/>
+          <include name="testForgotPasswordNavigation"/>
         </methods>
       </class> <!-- Tests.LoginPage_Test -->
     </classes>

@@ -25,6 +25,7 @@ public class BaseClass {
 		caps.setCapability("appium:newCommandTimeout", 60);
 		caps.setCapability("appium:appPackage", "com.vanilearner");
         caps.setCapability("appium:appActivity", "com.vanilearner.MainActivity");
+        caps.setCapability("appium:autoGrantPermissions",true);
         
         URL url = new URL("http://127.0.0.1:4723");
         driver = new AndroidDriver(url,caps);
@@ -39,7 +40,7 @@ public class BaseClass {
 	
 	@AfterTest
 	public void tearDown() {
-		driver.close();
+		//driver.close();
 		driver.quit();
 	}
 }
