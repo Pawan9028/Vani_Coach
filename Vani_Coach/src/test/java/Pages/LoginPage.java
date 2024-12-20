@@ -1,13 +1,10 @@
 package Pages;
 
-import java.time.Duration;
-import java.util.List;
 
-import org.openqa.selenium.By;
+import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -23,7 +20,7 @@ public class LoginPage {
 		this.driver = driver;
 		PageFactory.initElements(driver,this);
 	}
-	@FindBy(xpath = "//android.widget.TextView[@text='Login']")
+	@FindBy(xpath = "//android.widget.FrameLayout[@resource-id=\"android:id/content\"]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup")
 	private WebElement loginButton;
 	@FindBy(xpath="//com.horcrux.svg.SvgView") 
 	private WebElement logoOnLandingPage;
@@ -59,6 +56,19 @@ public class LoginPage {
 		Thread.sleep(20000);
 		loginButton.click();
 	}
+	public void login() throws InterruptedException {
+		Thread.sleep(1000);
+		loginButton.click();
+		Thread.sleep(10000);
+		loginButton.click();
+		Thread.sleep(10000);
+		username.sendKeys("6598321480");
+		Thread.sleep(10000);
+		password.sendKeys("123456");
+		Thread.sleep(10000);
+		submitButton.click();
+		Thread.sleep(10000);
+	}
 	public void verifyLogoPresence() throws InterruptedException {
 		clickOnLoginButton();
 		Assert.assertTrue(logoOnLogInPage.get(0).isDisplayed(),"Logo is not displayed on the Login Page.");
@@ -73,7 +83,7 @@ public class LoginPage {
 		
 	}
 	public void verifyLoginWithValidCredential() throws InterruptedException {
-		//clickOnLoginButton();
+		clickOnLoginButton();
 		Thread.sleep(10000);
 		username.sendKeys("6598321470");
 		Thread.sleep(10000);

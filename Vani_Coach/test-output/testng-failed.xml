@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.LoginPage_Test">
+      <class name="Tests.HomePage_Test">
         <methods>
-          <include name="verifyLoginWithValidCredential"/>
-          <include name="testInvalidLogin"/>
-          <include name="setUp"/>
+          <include name="verifyAIsection"/>
           <include name="loadObject"/>
-          <include name="testEmptyCredentials"/>
+          <include name="verifyWeeksProgressBar"/>
+          <include name="setUp"/>
+          <include name="verifyMeetYourCoachSection"/>
+          <include name="verifyCoachFeedbackVideosSection"/>
           <include name="tearDown"/>
-          <include name="testForgotPasswordNavigation"/>
         </methods>
-      </class> <!-- Tests.LoginPage_Test -->
+      </class> <!-- Tests.HomePage_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

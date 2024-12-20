@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 19 20:07:01 IST 2024</td>
+<td>Started on:</td><td>Fri Dec 20 23:15:24 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>129 seconds (129517 ms)</td>
+<tr><td>Total time:</td><td>180 seconds (180760 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.LoginPage_Test.testForgotPasswordNavigation()'><b>testForgotPasswordNavigation</b><br>Test class: Tests.LoginPage_Test</td>
+<td title='Tests.HomePage_Test.verifyCoachFeedbackVideosSection()'><b>verifyCoachFeedbackVideosSection</b><br>Test class: Tests.HomePage_Test</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [8bb06bc1-3f52-4d42-8a94-eefc9192b432, findElement {using=xpath, value=//android.widget.TextView[@text=&quot;Reset Password&quot;]}]
+Command: [01485e71-4e77-47b3-a9db-c1425fb736fd, findElement {using=xpath, value=//android.widget.FrameLayout[@resource-id=&quot;android:id/content&quot;]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup}]
 Capabilities {appium:appActivity: com.vanilearner.MainActivity, appium:appPackage: com.vanilearner, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.vanilearner.MainActivity, appPackage: com.vanilearner, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: PawanEmulator, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
+Session ID: 01485e71-4e77-47b3-a9db-c1425fb736fd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -102,9 +102,9 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at Pages.LoginPage.testForgotPasswordNavigation(LoginPage.java:126)
-	at Tests.LoginPage_Test.testForgotPasswordNavigation(LoginPage_Test.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at Pages.HomePage.verifyCoachFeedbackVideosSection(HomePage.java:154)
+	at Tests.HomePage_Test.verifyCoachFeedbackVideosSection(HomePage_Test.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,15 +133,15 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1367672657", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1367672657'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+</pre></div><a href='#' onClick='toggleBox("stack-trace87242619", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace87242619'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [8bb06bc1-3f52-4d42-8a94-eefc9192b432, findElement {using=xpath, value=//android.widget.TextView[@text=&quot;Reset Password&quot;]}]
+Command: [01485e71-4e77-47b3-a9db-c1425fb736fd, findElement {using=xpath, value=//android.widget.FrameLayout[@resource-id=&quot;android:id/content&quot;]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup}]
 Capabilities {appium:appActivity: com.vanilearner.MainActivity, appium:appPackage: com.vanilearner, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.vanilearner.MainActivity, appPackage: com.vanilearner, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: PawanEmulator, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
+Session ID: 01485e71-4e77-47b3-a9db-c1425fb736fd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -159,9 +159,9 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at Pages.LoginPage.testForgotPasswordNavigation(LoginPage.java:126)
-	at Tests.LoginPage_Test.testForgotPasswordNavigation(LoginPage_Test.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at Pages.HomePage.verifyCoachFeedbackVideosSection(HomePage.java:154)
+	at Tests.HomePage_Test.verifyCoachFeedbackVideosSection(HomePage_Test.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -192,17 +192,17 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Tests.LoginPage_Test@515c6049</td></tr>
+<td>Tests.HomePage_Test@618b19ad</td></tr>
 <tr>
-<td title='Tests.LoginPage_Test.verifyLoginWithValidCredential()'><b>verifyLoginWithValidCredential</b><br>Test class: Tests.LoginPage_Test</td>
+<td title='Tests.HomePage_Test.verifyWeeksProgressBar()'><b>verifyWeeksProgressBar</b><br>Test class: Tests.HomePage_Test</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [8bb06bc1-3f52-4d42-8a94-eefc9192b432, findElement {using=xpath, value=//android.widget.TextView[@text=&quot;Profile&quot;]}]
+Command: [01485e71-4e77-47b3-a9db-c1425fb736fd, findElement {using=xpath, value=//android.widget.FrameLayout[@resource-id=&quot;android:id/content&quot;]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup}]
 Capabilities {appium:appActivity: com.vanilearner.MainActivity, appium:appPackage: com.vanilearner, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.vanilearner.MainActivity, appPackage: com.vanilearner, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: PawanEmulator, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
+Session ID: 01485e71-4e77-47b3-a9db-c1425fb736fd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -221,8 +221,9 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at Pages.LoginPage.verifyLoginWithValidCredential(LoginPage.java:90)
-	at Tests.LoginPage_Test.verifyLoginWithValidCredential(LoginPage_Test.java:26)
+	at Pages.HomePage.login(HomePage.java:88)
+	at Pages.HomePage.verifyLearnerNameAndTextBelowTheName(HomePage.java:100)
+	at Tests.HomePage_Test.verifyWeeksProgressBar(HomePage_Test.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -251,15 +252,15 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace564817260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace564817260'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+</pre></div><a href='#' onClick='toggleBox("stack-trace2052223881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2052223881'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [8bb06bc1-3f52-4d42-8a94-eefc9192b432, findElement {using=xpath, value=//android.widget.TextView[@text=&quot;Profile&quot;]}]
+Command: [01485e71-4e77-47b3-a9db-c1425fb736fd, findElement {using=xpath, value=//android.widget.FrameLayout[@resource-id=&quot;android:id/content&quot;]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup}]
 Capabilities {appium:appActivity: com.vanilearner.MainActivity, appium:appPackage: com.vanilearner, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.vanilearner.MainActivity, appPackage: com.vanilearner, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: PawanEmulator, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
+Session ID: 01485e71-4e77-47b3-a9db-c1425fb736fd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -278,8 +279,9 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at Pages.LoginPage.verifyLoginWithValidCredential(LoginPage.java:90)
-	at Tests.LoginPage_Test.verifyLoginWithValidCredential(LoginPage_Test.java:26)
+	at Pages.HomePage.login(HomePage.java:88)
+	at Pages.HomePage.verifyLearnerNameAndTextBelowTheName(HomePage.java:100)
+	at Tests.HomePage_Test.verifyWeeksProgressBar(HomePage_Test.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -309,18 +311,18 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>61</td>
-<td>Tests.LoginPage_Test@515c6049</td></tr>
+<td>10</td>
+<td>Tests.HomePage_Test@618b19ad</td></tr>
 <tr>
-<td title='Tests.LoginPage_Test.testEmptyCredentials()'><b>testEmptyCredentials</b><br>Test class: Tests.LoginPage_Test</td>
+<td title='Tests.HomePage_Test.verifyAIsection()'><b>verifyAIsection</b><br>Test class: Tests.HomePage_Test</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [8bb06bc1-3f52-4d42-8a94-eefc9192b432, findElement {using=xpath, value=//android.widget.EditText[@text=&quot;Email or Phone Number&quot;]}]
+Command: [01485e71-4e77-47b3-a9db-c1425fb736fd, findElement {using=xpath, value=//android.widget.TextView[@text=&quot;Recent AI Feedbacks&quot;]}]
 Capabilities {appium:appActivity: com.vanilearner.MainActivity, appium:appPackage: com.vanilearner, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.vanilearner.MainActivity, appPackage: com.vanilearner, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: PawanEmulator, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
+Session ID: 01485e71-4e77-47b3-a9db-c1425fb736fd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -338,9 +340,9 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
-	at Pages.LoginPage.testEmptyCredentials(LoginPage.java:115)
-	at Tests.LoginPage_Test.testEmptyCredentials(LoginPage_Test.java:34)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at Pages.HomePage.verifyAIsection(HomePage.java:129)
+	at Tests.HomePage_Test.verifyAIsection(HomePage_Test.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -369,15 +371,15 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace662666707", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace662666707'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1592840862", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1592840862'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [8bb06bc1-3f52-4d42-8a94-eefc9192b432, findElement {using=xpath, value=//android.widget.EditText[@text=&quot;Email or Phone Number&quot;]}]
+Command: [01485e71-4e77-47b3-a9db-c1425fb736fd, findElement {using=xpath, value=//android.widget.TextView[@text=&quot;Recent AI Feedbacks&quot;]}]
 Capabilities {appium:appActivity: com.vanilearner.MainActivity, appium:appPackage: com.vanilearner, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.vanilearner.MainActivity, appPackage: com.vanilearner, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: PawanEmulator, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
+Session ID: 01485e71-4e77-47b3-a9db-c1425fb736fd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -395,9 +397,9 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
-	at Pages.LoginPage.testEmptyCredentials(LoginPage.java:115)
-	at Tests.LoginPage_Test.testEmptyCredentials(LoginPage_Test.java:34)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at Pages.HomePage.verifyAIsection(HomePage.java:129)
+	at Tests.HomePage_Test.verifyAIsection(HomePage_Test.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -427,18 +429,18 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>20</td>
-<td>Tests.LoginPage_Test@515c6049</td></tr>
+<td>0</td>
+<td>Tests.HomePage_Test@618b19ad</td></tr>
 <tr>
-<td title='Tests.LoginPage_Test.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: Tests.LoginPage_Test</td>
+<td title='Tests.HomePage_Test.verifyMeetYourCoachSection()'><b>verifyMeetYourCoachSection</b><br>Test class: Tests.HomePage_Test</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [8bb06bc1-3f52-4d42-8a94-eefc9192b432, findElement {using=xpath, value=//android.widget.TextView[@text=&apos;Login&apos;]}]
+Command: [01485e71-4e77-47b3-a9db-c1425fb736fd, findElement {using=xpath, value=//android.widget.TextView[@text=&quot;Meet your coach&quot;]}]
 Capabilities {appium:appActivity: com.vanilearner.MainActivity, appium:appPackage: com.vanilearner, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.vanilearner.MainActivity, appPackage: com.vanilearner, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: PawanEmulator, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
+Session ID: 01485e71-4e77-47b3-a9db-c1425fb736fd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -456,10 +458,9 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at Pages.LoginPage.clickOnLoginButton(LoginPage.java:60)
-	at Pages.LoginPage.testInvalidLogin(LoginPage.java:96)
-	at Tests.LoginPage_Test.testInvalidLogin(LoginPage_Test.java:30)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at Pages.HomePage.verifyMeetYourCoachSection(HomePage.java:150)
+	at Tests.HomePage_Test.verifyMeetYourCoachSection(HomePage_Test.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -488,15 +489,15 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1374217958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1374217958'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1907241392", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1907241392'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [8bb06bc1-3f52-4d42-8a94-eefc9192b432, findElement {using=xpath, value=//android.widget.TextView[@text=&apos;Login&apos;]}]
+Command: [01485e71-4e77-47b3-a9db-c1425fb736fd, findElement {using=xpath, value=//android.widget.TextView[@text=&quot;Meet your coach&quot;]}]
 Capabilities {appium:appActivity: com.vanilearner.MainActivity, appium:appPackage: com.vanilearner, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.vanilearner.MainActivity, appPackage: com.vanilearner, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: PawanEmulator, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 15}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
+Session ID: 01485e71-4e77-47b3-a9db-c1425fb736fd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -514,10 +515,9 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at Pages.LoginPage.clickOnLoginButton(LoginPage.java:60)
-	at Pages.LoginPage.testInvalidLogin(LoginPage.java:96)
-	at Tests.LoginPage_Test.testInvalidLogin(LoginPage_Test.java:30)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at Pages.HomePage.verifyMeetYourCoachSection(HomePage.java:150)
+	at Tests.HomePage_Test.verifyMeetYourCoachSection(HomePage_Test.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -547,8 +547,8 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>20</td>
-<td>Tests.LoginPage_Test@515c6049</td></tr>
+<td>0</td>
+<td>Tests.HomePage_Test@618b19ad</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -559,15 +559,35 @@ Session ID: 8bb06bc1-3f52-4d42-8a94-eefc9192b432
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.LoginPage_Test.verifyTextBoxesAndButtonsEnable()'><b>verifyTextBoxesAndButtonsEnable</b><br>Test class: Tests.LoginPage_Test</td>
+<td title='Tests.HomePage_Test.verifyMyStreakSection()'><b>verifyMyStreakSection</b><br>Test class: Tests.HomePage_Test</td>
 <td></td>
 <td>0</td>
-<td>Tests.LoginPage_Test@515c6049</td></tr>
+<td>Tests.HomePage_Test@618b19ad</td></tr>
 <tr>
-<td title='Tests.LoginPage_Test.verifyLogo()'><b>verifyLogo</b><br>Test class: Tests.LoginPage_Test</td>
+<td title='Tests.HomePage_Test.verifyFooterTabdRedirection()'><b>verifyFooterTabdRedirection</b><br>Test class: Tests.HomePage_Test</td>
 <td></td>
-<td>21</td>
-<td>Tests.LoginPage_Test@515c6049</td></tr>
+<td>80</td>
+<td>Tests.HomePage_Test@618b19ad</td></tr>
+<tr>
+<td title='Tests.HomePage_Test.verifyTheScoreAndTimeStampChart()'><b>verifyTheScoreAndTimeStampChart</b><br>Test class: Tests.HomePage_Test</td>
+<td></td>
+<td>0</td>
+<td>Tests.HomePage_Test@618b19ad</td></tr>
+<tr>
+<td title='Tests.HomePage_Test.verifyLearnerNameAndTextBelowTheName()'><b>verifyLearnerNameAndTextBelowTheName</b><br>Test class: Tests.HomePage_Test</td>
+<td></td>
+<td>52</td>
+<td>Tests.HomePage_Test@618b19ad</td></tr>
+<tr>
+<td title='Tests.HomePage_Test.testHeaderIcons()'><b>testHeaderIcons</b><br>Test class: Tests.HomePage_Test</td>
+<td></td>
+<td>0</td>
+<td>Tests.HomePage_Test@618b19ad</td></tr>
+<tr>
+<td title='Tests.HomePage_Test.verifyStartPracticeTabRedirection()'><b>verifyStartPracticeTabRedirection</b><br>Test class: Tests.HomePage_Test</td>
+<td></td>
+<td>30</td>
+<td>Tests.HomePage_Test@618b19ad</td></tr>
 </table><p>
 </body>
 </html>
