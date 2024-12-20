@@ -6,11 +6,15 @@
       <class name="Tests.HomePage_Test">
         <methods>
           <include name="verifyAIsection"/>
+          <include name="verifyMyStreakSection"/>
+          <include name="verifyFooterTabdRedirection"/>
           <include name="loadObject"/>
           <include name="verifyWeeksProgressBar"/>
           <include name="setUp"/>
           <include name="verifyMeetYourCoachSection"/>
           <include name="verifyCoachFeedbackVideosSection"/>
+          <include name="verifyTheScoreAndTimeStampChart"/>
+          <include name="verifyStartPracticeTabRedirection"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Tests.HomePage_Test -->
